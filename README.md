@@ -8,5 +8,5 @@ My compiled version of EaglerForge
 
 # LINKS: 
 
-   [![Button](https://img.shields.io/badge/Main%20Link-black)](https://rawcdn.githack.com/jeb1399/EaglerForge-Compiled/604afc77ac6f494cfd5f3da57f189a87108ffaf4/index.html)
-   [![Button](https://img.shields.io/badge/Alternative%20Link-black)](https://raw.githack.com/jeb1399/EaglerForge-Compiled/main/index.html)
+   [![Button](https://img.shields.io/badge/Main%20Link-blue)](https://rawcdn.githack.com/jeb1399/EaglerForge-Compiled/604afc77ac6f494cfd5f3da57f189a87108ffaf4/index.html)
+   [![Button](https://img.shields.io/badge/Alternative%20Link-blue)](https://raw.githack.com/jeb1399/EaglerForge-Compiled/main/index.html)
