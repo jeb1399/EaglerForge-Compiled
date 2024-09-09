@@ -8,5 +8,5 @@ My compiled version of EaglerForge
 
 # LINKS: 
 
-  - https://rawcdn.githack.com/jeb1399/EaglerForge-Compiled/604afc77ac6f494cfd5f3da57f189a87108ffaf4/index.html
+  - [Main1](https://rawcdn.githack.com/jeb1399/EaglerForge-Compiled/604afc77ac6f494cfd5f3da57f189a87108ffaf4/index.html)
   - https://raw.githack.com/jeb1399/EaglerForge-Compiled/main/index.html
