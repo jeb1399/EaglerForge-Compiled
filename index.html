@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>👍👍👍</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(31, 31, 31);
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background: rgba(0, 123, 255, 0.5);
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .client-list {
+            margin-top: 20px;
+        }
+        .client-item {
+            background: rgba(62, 62, 62, 0.5);
+            color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px 0;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .client-item a {
+            text-decoration: none;
+            color: rgba(0, 123, 255, 0.5);
+            transition: color 0.1s ease-in;
+        }
+        .client-item a:hover {
+            text-decoration: underline;
+            color: rgba(0, 123, 255);
+            transition: color 0.3s ease-out;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MY Eaglerforge Download</h1>
+  <client-link src="">English US</client-link>
+  <client-link src="">International</client-link>
+</header>
+
+<div class="client-list" id="clientList">
+</div>
+
+<script>
+    document.querySelectorAll('client-link').forEach(clientLink => {
+        const src = clientLink.getAttribute('src');
+        if (src) {
+            const clientItem = document.createElement('div');
+            clientItem.className = 'client-item';
+            clientItem.innerHTML = `
+                <span>${src.split('/').pop()}</span>
+                <a href="${src}" download>Download</a>
+            `;
+            document.getElementById('clientList').appendChild(clientItem);
+        }
+        clientLink.remove();
+    });
+</script>
+</body>
+</html>
